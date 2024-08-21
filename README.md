@@ -51,7 +51,7 @@ In the pod definition, pod can access storage using this `PersistentVolumeClaim`
 ### Description
 This system is only meant to use when no other storage solution (Ceph, AWS, Azure, etc.) is provided in the Kubernetes cluster. The graph below describes our solution (*debug*), compared to a typical production-ready solution (*production*).
 
-![Diagram of the solution](storage_solution.png)
+<img alt="Diagram of the solution" src="storage_solution.png" width=300>
 
 ### Summary of created resources
 |Resource type|Resource name|Description|
